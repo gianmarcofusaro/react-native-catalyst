@@ -2,10 +2,12 @@ export default `
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TemplateName = (props) => (
+const TemplateName = (props) => {
 
-  return null
-);
+  return (
+    null
+  )
+};
 
 TemplateName.propTypes = {};
 
