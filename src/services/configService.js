@@ -7,7 +7,7 @@ const questions = [
     type: 'list',
     name: 'component.path',
     message: 'Component family',
-    choices: ['components', 'layouts', 'screens','wrappers'],
+    choices: ['components','core-components', 'layouts', 'screens','wrappers'],
   },
   {
     type: 'list',
