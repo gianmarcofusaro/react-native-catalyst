@@ -5,7 +5,7 @@ import replace from 'replace';
 
 export function onGenerateComponent(componentTemplates) {
   for (let i = 0; i < componentTemplates.length; i++) {
-    const { template, templateType, componentPath, componentName } = componentTemplates[i];
+    const { template, templateType, componentName, componentPath } = componentTemplates[i];
 
     if (existsSync(componentPath)) {
       console.error(chalk.red(`${templateType} ${errorMsg.onCheckComponentBeignInPathPartial} ${componentPath}".`));
