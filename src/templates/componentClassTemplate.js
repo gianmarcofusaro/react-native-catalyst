@@ -1,7 +1,6 @@
 export default `
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './TemplateName.module.css';
 
 class TemplateName extends React.Component {
   constructor(props) {
