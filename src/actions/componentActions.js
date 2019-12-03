@@ -6,7 +6,8 @@ import componentLogicTemplate from '../templates/componentLogicTemplate';
 import componentStyleTemplate from '../templates/componentStyleTemplate';
 
 export function generateComponent(componentName, cmd, componentConfig) {
-  const path = `src/${componentConfig.path}/${componentName}`;
+  const componentNameLowered = componentName.charAt(0).toLowerCase() + componentName.slice(1);
+  const path = `src/${componentConfig.path}/${componentNameLowered}`;
 
   if (!componentName.match(/^[A-Za-z]+$/)) {
     console.error(chalk.red.bold('ERROR: Component name should contain only letters'));
