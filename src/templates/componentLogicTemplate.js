@@ -10,5 +10,5 @@ Fn.propTypes = {};
 
 Fn.defaultProps = {};
 
-export default TemplateName;
+export default Fn;
 `;
