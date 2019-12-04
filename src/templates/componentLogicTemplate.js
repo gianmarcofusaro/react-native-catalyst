@@ -1,6 +1,4 @@
-export default `import React from 'react';
-
-export const Fn = (props) => (
+export default `export const Fn = (...arguments) => (
 
   return null
 );
