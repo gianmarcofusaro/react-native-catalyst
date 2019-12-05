@@ -8,8 +8,7 @@ import componentStyleTemplate from '../templates/componentStyleTemplate';
 export function generateComponent(componentName, cmd, componentConfig) {
   const componentNameLowered = componentName.charAt(0).toLowerCase() + componentName.slice(1);
   const path = `src/${componentConfig.path}/${componentNameLowered}`;
-  let suffix = componentConfig.path;
-  suffix = suffix.charAt(0).toUpperCase() + suffix.slice(1)
+  const suffix = componentConfig.path.charAt(0).toUpperCase() + componentConfig.path.slice(1,-1);
   const componentSuffix = componentConfig.path === 'core-components' ? '' : suffix;
 
   if (!componentName.match(/^[A-Za-z]+$/)) {
