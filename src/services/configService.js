@@ -10,6 +10,11 @@ const questions = [
     choices: ['components','core-components', 'layouts', 'screens','wrappers'],
   },
   {
+    type: 'input',
+    name: 'component.subfolder',
+    message: 'Need a subfolder to group it? else leave it empty',
+  },
+  {
     type: 'list',
     name: 'component.type',
     message: 'It\'s a function or class? (functional is preferred)',
