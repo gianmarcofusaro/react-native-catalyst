@@ -1,10 +1,10 @@
 export default `import { StyleSheet } from 'react-native';
 
-const TemplateNameStyle = StyleSheet.create({
+const styles = StyleSheet.create({
 
 });
 
-export default TemplateNamestyle;
+export default styles;
 `;
 
 

@@ -1,5 +1,4 @@
-export default `export const Fn = (...arguments) => (
-
+export default `export const Fn = () => (
   return null
 );
 `;
