@@ -6,7 +6,9 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
+    "esm": "^3.2.25",
     "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0",
     "replace": "^1.1.1"
   },
